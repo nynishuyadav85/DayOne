@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Write = () => {
+const JournalEnterypage = () => {
     return (
-        <div>Write</div>
+        <div>JournalEnterypage</div>
     )
 }
 
-export default Write
+export default JournalEnterypage
