@@ -73,12 +73,31 @@ body {
   }
 }
 
-@layer utilities  {
+@layer utilities {
   .gradient-title {
     @apply font-extrabold bg-gradient-to-br from-orange-500 via-orange-300 to-orange-400 bg-clip-text tracking-tighter text-transparent pr-2 pb-2
   }
-} 
+}
 
 html {
   scroll-behavior: smooth;
+}
+
+.ql-container {
+  min-height: 80vh;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ql-editor {
+  height: 100%;
+  flex: 1;
+  overflow: auto;
+  width: 100%;
+}
+
+.ql-toolbar {
+  border-radius: 5px;
 }
